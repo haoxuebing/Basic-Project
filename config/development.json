@@ -1,0 +1,46 @@
+{
+    "app_name": "module_plateform_development",
+    "port": 5000,
+    "db_config": {
+        "connectionLimit": 20,
+        "host": "47.95.222.240",
+        "port": "3306",
+        "user": "root",
+        "password": "123456",
+        "database": "myweb"
+    },
+    "log4js": {
+        "appenders": {
+            "out": {
+                "type": "console"
+            },
+            "default": {
+                "type": "dateFile",
+                "filename": "logs/info",
+                "pattern": "-yyyy-MM-dd.log",
+                "alwaysIncludePattern": true
+            },
+            "error": {
+                "type": "dateFile",
+                "filename": "logs/error",
+                "pattern": "-yyyy-MM-dd.log",
+                "alwaysIncludePattern": true
+            }
+        },
+        "categories": {
+            "default": {
+                "appenders": [
+                    "out",
+                    "default"
+                ],
+                "level": "info"
+            },
+            "error": {
+                "appenders": [
+                    "error"
+                ],
+                "level": "error"
+            }
+        }
+    }
+}

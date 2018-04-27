@@ -1,0 +1,12 @@
+{
+    "app_name":"module_plateform_production",
+    "port": 5000,
+    "db_config": {
+        "connectionLimit": 20,
+        "host": "x.x.x.x",
+        "port": "3306",
+        "user": "root",
+        "password": "xxxx",
+        "database": "xxxx"
+    }
+}
