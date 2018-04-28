@@ -1,4 +1,5 @@
 var mysql = require('../db_mysql');
+var mongoose=require('../db_mongo');
 var logs = require('../logs');
 
 
@@ -16,9 +17,14 @@ async function post_test_by_id(req, res){
     res.send(JSON.stringify(rlt));
 }
 
+async function get_test_mongo(req,res){
+    
+}
+
 module.exports = {
     get_test,
-    post_test_by_id
+    post_test_by_id,
+    get_test_mongo
 }
 
 

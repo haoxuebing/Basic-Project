@@ -1,6 +1,6 @@
 
 module.exports = function (router, service) {
-    for (var prop in Object.getOwnPropertyDescriptors(service)) {
+    Object.keys(service).forEach(prop => {
         if (prop.startsWith('get')) {
             router.get('/' + prop, service[prop]);
         } else if (prop.startsWith('post')) {
@@ -8,5 +8,5 @@ module.exports = function (router, service) {
         } else {
             router.all('/' + prop, service[prop]);
         }
-    }
+    })
 }
