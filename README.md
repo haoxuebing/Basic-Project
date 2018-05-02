@@ -1,6 +1,6 @@
 # module_plateform
 
-## git clone https://git.coding.net/wangqi0902vip/module_plateform.git
+## git clone git@github.com:haoxuebing/Basic-Project.git
 ## npm install
 ## node bin/www
 
