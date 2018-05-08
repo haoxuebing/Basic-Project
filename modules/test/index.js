@@ -17,14 +17,15 @@ async function post_test_by_id(req, res){
     res.send(JSON.stringify(rlt));
 }
 
-async function get_test_mongo(req,res){
-    
+async function api_test(req,res){
+    res.send('hello wolrd');
+
 }
 
 module.exports = {
     get_test,
     post_test_by_id,
-    get_test_mongo
+    api_test
 }
 
 
