@@ -1,5 +1,5 @@
 {
-    "app_name": "module_plateform_development",
+    "app_name": "Basic-Project_development",
     "port": 5000,
     "db_config": {
         "connectionLimit": 20,

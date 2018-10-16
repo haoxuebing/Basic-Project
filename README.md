@@ -1,4 +1,4 @@
-# module_plateform
+# Basic-Project
 
 ## git clone git@github.com:haoxuebing/Basic-Project.git
 ## npm install

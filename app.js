@@ -6,7 +6,7 @@ var logger = require('morgan');
 var fs = require('fs');
 
 var config = require('config');
-var logs = require('./modules/logs');
+var logs = require('./modules/common/logger');
 logs.init(config.log4js);
 
 var app = express();

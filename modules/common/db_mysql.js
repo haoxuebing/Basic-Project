@@ -1,6 +1,6 @@
 var mysql = require('mysql');
 var config = require('config');
-var logs = require('../logs')
+var logs = require('./logger');
 
 
 var pools;

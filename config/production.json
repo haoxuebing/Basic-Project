@@ -1,5 +1,5 @@
 {
-    "app_name":"module_plateform_production",
+    "app_name":"Basic-Project_production",
     "port": 5000,
     "db_config": {
         "connectionLimit": 20,

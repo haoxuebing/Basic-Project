@@ -1,6 +1,6 @@
-var mysql = require('../db_mysql');
+var mysql = require('../common/db_mysql');
 var mongoose=require('../db_mongo');
-var logs = require('../logs');
+var logs = require('../common/logger');
 
 
 async function get_test(req, res) {
